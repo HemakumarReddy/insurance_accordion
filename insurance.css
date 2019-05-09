@@ -1,0 +1,133 @@
+body{
+    background-color: beige;
+    /*background-image: url("./image-9_zps9b92a8e7.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Comic sans MS", sans-serif; 
+
+}
+details{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+summary{
+    outline: none;
+    cursor: pointer;
+}
+#policy, #incident, #vehicle, #driver,
+#incident_occurred, #property, #insurance, #history,
+ #Undertaking, #claim, #CLAIMDISCHARGE{
+    padding: 15px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+.Property_injury table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.Property_injury input[type=text]{
+    width: 180px;
+   
+}
+
+#property table{
+    width: 100%;
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+#property table th{
+    text-align: center;
+}
+#property table input[type=text]{
+    line-height: 20px;
+    padding: 5px;
+}
+#claimed table{
+    width: 100%;
+    /*border: 1px solid darkgray;*/
+    padding: 10px;
+    border-collapse: collapse;
+}
+#claimed table input[type=text]{
+    line-height: 20px;
+    padding: 10px;
+    width: 200px;
+}
+#documents table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#documents #Surveyor, #accident_claim{
+    text-align: center;
+}
+#claim label {
+    padding:10px 0 0 0;    
+}
+
+#claim input[type=text]{
+    line-height: 20px;
+}
+#claim #bank_details span{
+    text-align: center;
+
+}
+/*#bank_details span::before,
+#bank_detailss span::after{
+    content: "";
+  position: absolute;
+  height: 5px;
+  border: 3px solid black;
+  <!--border-top: 1px solid red;-->
+  top: 20px;
+  width: 580px;
+}
+#bank_details span:before {
+    right: 100%;
+    margin-right: 10px;
+  }
+#bank_details span:after {
+    left: 100%;
+    margin-left:10px;
+  }
+*/
+#bank_details #bank_1 label{
+    line-height: 30px;
+     
+    
+}
+#cheque h4{
+    text-align: center;
+}
+.cheque_1  {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 50px;
+
+}
+#sign{
+    text-align: center;
+    padding-top: 40px;
+
+}
+#CLAIMDISCHARGE h3{
+    text-align: center;
+}
+#CLAIMDISCHARGE label{
+    padding:10px;  
+}
+#CLAIMDISCHARGE input[type=text]{
+    line-height: 20px;
+}
+.claim{
+    width: 100%;
+    border-collapse: collapse;
+}
+.sign_stamp td{    
+    padding: 50px;
+}
+.signature{
+    text-align: center;
+}
